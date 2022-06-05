@@ -1,9 +1,20 @@
-    Vitali Ahel
-    Contacts 
+# Vitali Ahel
+## Contacts 
     mobile +375292812829
 
-About me
+## About me
 I'm engineer
 
-Skills
+## Skills
 Basic TCP/IPs
+
+## Code Examples
+echo "Hello World!"
+
+## Education
+BNTU
+
+## Languages
+Belurussian
+Russian
+English A1
