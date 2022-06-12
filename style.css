@@ -1,1 +1,48 @@
-headergit
+@font-face {
+    font-family: Roboto;
+     src: url("fonts/Roboto-Regular.ttf");
+   }
+@font-face {
+    font-family: OpenSans;
+     src: url("fonts/OpenSans-Regular.ttf");
+   }
+* {
+    box-sizing: border-box;
+   
+  }
+
+  /*Fonts for text*/ 
+  p {
+  font: bold 12px Roboto, sans-serif;    
+  }
+  h2 {
+    font: bold 15px OpenSans, sans-serif;    
+    }
+
+.header {
+    border: 1px solid red;
+}
+
+.main {
+    border: 1px solid red;
+}
+
+.foooter {
+    border: 1px solid red;
+   }
+
+.block {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
