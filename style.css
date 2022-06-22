@@ -30,6 +30,7 @@
 }
 
 .footer {
+
           background-color: #05747b;
         color: white;
          height: auto;
@@ -39,7 +40,7 @@
 .block {
     max-width: 1440px;
     margin: 0 auto;
-}
+  }
 
 .navigation-list {
     display: flex;
