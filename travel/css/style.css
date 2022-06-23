@@ -1,0 +1,126 @@
+/* navigation fonts */
+@font-face {
+    font-family: 'RedHatText';
+    src: url(/travel/fonts/) ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+}
+/* logo fonts */
+@font-face {
+    font-family: 'Magra';
+    src: url(/travel/fonts/);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* Header styles start */
+.header {
+    background-color: rgba(242, 120, 92, 0.7);
+    height: 90px;
+    left: 0px;
+    top: 0px;    
+    display: flex;
+    position: fixed;
+    
+}
+
+.header-logo {
+    margin-left: 120px;
+}
+.header-logo-link {
+    font-family: Magra;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.header-nav-item {
+    margin-right: 42px;
+}
+.header-nav-item:last-child {
+    margin: 0;
+}
+
+.header-nav-link {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    text-decoration: none
+    }
+    
+  .header-nav-link:hover, .header-nav-link:focus, .header-nav-link:active  {
+    transition: 0.5s;
+    text-decoration: underline;
+    }  
+
+
+.header-login {
+      margin-right: 120px;
+    }  
+    
+.header-login-button {  
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 41px;
+     }
+
+    .header-login-link {
+    padding: 10px, 30px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    }
+    /* Header styles end */
+
+    /* Plan-trip styles start */
+
+    .plan-trip {
+        height: 100vh;
+        background: url(../img/jpg/garrett-parker.jpg) no-repeat center;
+        background-size: cover;
+    }
