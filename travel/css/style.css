@@ -1,7 +1,7 @@
 /* navigation fonts */
 @font-face {
     font-family: 'RedHatText';
-    src: url(/travel/fonts/) ;
+    src: url(../fonts/RedHatText-Regular.ttf) ;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -10,11 +10,16 @@
 /* logo fonts */
 @font-face {
     font-family: 'Magra';
-    src: url(/travel/fonts/);
+    src: url(../fonts/Magra-Regular.ttf);
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 39px;
+}
+
+@font-face {
+    font-family: 'Ateo';
+    src: url(../fonts/);
 }
 
 * {
@@ -22,28 +27,29 @@
 }
 
 .wrapper {
-    width: 1440px;
+    max-width: 1440px;
     display: flex;
-    flex-wrap: wrap;
     margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-    
+    flex-direction: column;   
 }
 /* Header styles start */
 .header {
     background-color: rgba(242, 120, 92, 0.7);
+    width: 100%;
     height: 90px;
     left: 0px;
     top: 0px;    
     display: flex;
-    position: fixed;
-    
-}
+    position: fixed; 
+    flex-wrap: wrap;   
+    justify-content: space-between;
+    align-items: center;
+    }
 
 .header-logo {
     margin-left: 120px;
 }
+
 .header-logo-link {
     font-family: Magra;
     font-style: normal;
@@ -57,8 +63,8 @@
 .header-nav {
     display: flex;
     justify-content: space-between;
-
 }
+
 .header-nav-list {
     display: flex;
     justify-content: flex-start;
@@ -120,7 +126,76 @@
     /* Plan-trip styles start */
 
     .plan-trip {
+       
         height: 100vh;
         background: url(../img/jpg/garrett-parker.jpg) no-repeat center;
         background-size: cover;
+        padding-top: 122px; 
+        padding-left: 120px;     
+       
+    }
+    .plan-trip-title {
+        max-width: 892px;   
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+        color: #FFFFFF;
+    }
+
+    .plan-trip-subtitle {
+        margin-bottom: 42px;
+        font-family: 'Aleo';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        
+    }
+    .plan-trip-form {
+        max-width: 892px;
+        position: relative;
+        }
+
+    .plan-trip-search {
+        display: block;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 16px;
+        padding-left: 42px;
+        padding-top: 32px;
+        padding-right: 291px;
+        padding-bottom: 41px;
+        border: none;
+        text-align: left;
+        
+    }
+    .plan-trip-search::placeholder {
+       
+        font-family: 'Aleo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #F2785C;
+        border: none;
+    }
+    .plan-trip-submit {
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        bottom: 18px;
+        width: 228px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        background: #0D606F;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: none;
     }
