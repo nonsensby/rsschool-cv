@@ -32,9 +32,8 @@
     display: flex;
     margin: 0 auto;
     flex-direction: column; 
-    background: url(../img/jpg/Rectangle\ 27.jpg) no-repeat bottom;
-
-}
+    background:  url(../img/jpg/Rectangle\ 27.jpg) no-repeat bottom;
+    }
 /* Header styles start */
 .header {
     background-color: rgba(242, 120, 92, 0.7);
@@ -113,17 +112,15 @@
     align-items: center;
     width: 103px;
     height: 41px;
-     }
-
-    .header-login-link {
-    padding: 10px, 30px;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
-    }
+    padding: 10px, 30px;
+     }
+  
     /* Header styles end */
 
     /* Plan-trip styles start */
@@ -323,18 +320,6 @@
     margin-bottom: 24px;
       
   }
-.destinations-spain {
-      
-}
-
-.destinations-japan {
-    
-}
-
-.destinations-usa {
-       
-    
-}
 
 .slider {
     border: none;
@@ -384,6 +369,9 @@
 /* Destinations end */
 
 /* Travel stories start */
+.wrapper-story {
+    background: rgba(255, 255, 255, 0.7);
+    }
 
 .stories {
     margin-left: 120px;
@@ -412,7 +400,7 @@
     margin-top: 0;
     margin-bottom: 24px;
     }
-.stories p {
+.stories p  {
     width: 760px;
     font-family: 'Aleo';
     font-style: normal;
@@ -422,6 +410,17 @@
     color: #0D606F;
     text-align: left;
     }
+
+    .stories a  {
+        width: 760px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0D606F;
+        text-align: left;
+        }
 
 .stories img {
     width: 400px;
@@ -454,9 +453,7 @@
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.see-more {
-    
-}
+
 .see-more-submit {
     display: flex;
     align-items: center;
@@ -468,6 +465,12 @@
     width: 228px;
     height: 59px;
     padding: 10px 32px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
     
 }
 
@@ -477,14 +480,6 @@
     margin-right: 10px;
 }
 
-.see-more-submit p {
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-   }
 /* Travel stories end */
 
 /* Footer start */
@@ -492,8 +487,8 @@
     
     background-position: bottom;
     background-size: cover;
-    padding-left: 590px;
-    padding-right: 121px;
+    margin-left: 590px;
+    margin-right: 121px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -514,5 +509,16 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.social-item {
+    margin-right: 20px;
+}
+.social-item :last-child {
+    margin: 0;
+}
 /* Footer end */
