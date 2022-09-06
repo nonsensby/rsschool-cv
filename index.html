@@ -9,112 +9,16 @@
     <link rel="icon" href="image/favicon.ico">
 </head>
 <body>
-    <div class="block">
-    <!-- Custom header-->
     <header class="header">
-            <nav>
-                <ul class="navigation-list">
-                    <li><a href="#Contacts" class="navigation-link">Contact</a></li>
-                    <li><a href="#AboutMe" class="navigation-link">About me</a></li>
-                    <li><a href="#HardSkills" class="navigation-link">Hard Skills</a></li>
-                    <li><a href="#SoftSkills" class="navigation-link">Soft Skills</a></li>
-                    <li><a href="#CodeExample" class="navigation-link">Code Example</a></li>
-                    <li><a href="#WorkExperience" class="navigation-link">Work Experience</a></li>
-                    <li><a href="#Education" class="navigation-link">Education</a></li>
-                    <li><a href="#Language" class="navigation-link">Language</a></li>
-                </ul>
-            </nav>
+      
     </header>
 <!-- Custom main-->
     <main class="main">
-        <div class="block main-block">
-            <div class="right-position">
-                <section id="Profile"  class="section-right">
-                    <h1>Vitali Ahel</h1>
-                </section>
-                <section id="AboutMe" class="section-right" >
-                    <h2>About me</h2>
-                        <p>Hello, I work as a service engineer with banking and retail equipment. I have always liked programming. I am currently learning frontend. Learning to do, doing to learn.</p>
-                </section>
-                <section id="Education" class="section-right">
-                    <h2>Education</h2>
-                        <p>Belarusian National Technical University
-                        Technology of materials and components of electronic equipment
-                        2007-2012</p>
-                </section>
-                <section id="CodeExample" class="section-right">
-                    <h2>Code Example</h2>
-                        <code>strAddress = "8.8.8.8"
-                            <br>Set objWShell = CreateObject("WScript.Shell")
-                            <br>If Not Ping_WMI(strAddress) Then
-                            <br>  MsgBox("Alarm!")
-                            <br>End If
-                            <br>WScript.Quit 
-                            <br>Function Ping_WMI(strAddr)
-                            <br>Dim objWMI, objItem
-                            <br> Set objWMI = GetObject("winmgmts:").ExecQuery("SELECT StatusCode FROM Win32_PingStatus WHERE Address='" & strAddr & "'")
-                            <br>For Each objItem In objWMI
-                            <br> If IsNull(objItem.StatusCode) Then
-                            <br>    Ping_WMI = False
-                            <br> Else
-                            <br>      Ping_WMI = (objItem.StatusCode = 0)
-                            <br> End If
-                            <br>Next
-                            <br>Set objItem = Nothing: Set objWMI = Nothing
-                            <br>End Function
-                        </code>
-                </section>
-                <section id="WorkExperience" class="section-right">
-                    <h2>Work Experience</h2>
-                     <p>Tusson Ltd. 2014-now</p>
-                     <p>Deputy Head of Department</p>
-                </section>
-            </div>
-            <div class="left-position">
-                <img src="image/jpg/photo_CV.jpeg" alt="My photo" class="radius" width="200" height="200">
-                <section id="Contacts" class="section-left">
-                    <h2>Contacts</h2>
-                        <ul class="section-list">
-                            <li class="section-link"><img src="/image/svg/free-icon-font-phone-call-5070407.svg">+375292812829</li>
-                            <li class="section-link"><img src="/image/svg/free-icon-font-envelope-3916631.svg">nonsens_bill@mail.ru</li>
-                            <li class="section-link"><img src="/image/svg/free-icon-font-github-6424084.svg">github.com/nonsensby</li>
-                            <li class="section-link"><img src="/image/svg/free-icon-font-linkedin-6422202.svg">linkedin.com/in/vitaly-ahel-65418a157</li>
-                        </ul>
-                </section>
-                <section id="HardSkills" class="section-left">
-                    <h2>Hard Skills</h2>
-                        <ul class="section-list">
-                            <li class="section-link">Basic HTLM</li>
-                            <li class="section-link">Basic CSS</li>
-                            <li class="section-link">Basic JavaScript</li>
-                            <li class="section-link">Basic Powershell</li>
-                            <li class="section-link">Network administration basics</li>
-                         </ul>
-                </section>
-                <section id="SoftSkills" class="section-left">
-                    <h2>Soft Skills</h2>
-                        <ul class="section-list">
-                            <li class="section-link">Teamwork</li>
-                            <li class="section-link">Time management</li>
-                            <li class="section-link">Stress management</li>
-                            <li class="section-link">Openness to criticism</li>
-                        </ul>
-                </section>
-                <section id="Language" class="section-left">
-                    <h2>Language</h2>
-                        <ul class="section-list">
-                            <li class="section-link">English A2</li>
-                        </ul>
-                </section>
-            </div>
-        </div>
+       
     </main>
        <!-- Custom footer-->
     <footer class="footer">
-            <a href="https://github.com/nonsensby"><img src="/image/svg/github-icon.svg"></a>
-            <a href="https://rs.school/js/"><img src="image/svg/rs_school_js.svg" alt="RS School"></a>
-            <time>2022</time>
-            <p>Vitali Ahel</p>
+            
         </footer>
     </div>
     </body>
