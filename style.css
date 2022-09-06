@@ -6,9 +6,7 @@
     font-family: "OpenSans";
      src: url("fonts/OpenSans-Regular.ttf");
    }
-* {
-    box-sizing: border-box;
- }
+
 
  body {
     display: flex;
@@ -145,6 +143,7 @@
     font-family: Roboto;
     color: white; 
 }
+
 
 .section-link img {
   max-width: 15px;
