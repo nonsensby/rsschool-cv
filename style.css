@@ -1,9 +1,9 @@
 @font-face {
-    font-family: Roboto;
+    font-family: "Roboto";
      src: url("fonts/Roboto-Regular.ttf");
    }
 @font-face {
-    font-family: OpenSans;
+    font-family: "OpenSans";
      src: url("fonts/OpenSans-Regular.ttf");
    }
 
@@ -23,17 +23,29 @@
     }
 
 .header {
-    
-    background-color: #05747b;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #05747b;
 }
 
 .footer {
-
-          background-color: #05747b;
-        color: white;
-         height: auto;
-      width: 100%;         
-     }
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #05747b;
+  color: white;
+  height: auto;
+  width: 100%;         
+  }
+ .footer img {
+  height: 50px;
+  padding: 5%;
+ } 
+ .footer time {
+  display: flex;
+  align-items: center;
+ }
 
 .block {
     max-width: 1440px;
@@ -130,4 +142,13 @@
     line-height: 2;
     font-family: Roboto;
     color: white; 
+}
+
+
+.section-link img {
+  max-width: 15px;
+  margin-right: 10px;
+  fill: aliceblue;
+  stroke: aliceblue;
+  
 }
