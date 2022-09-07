@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Roboto";
+     src: url("fonts/Roboto-Regular.ttf");
+   }
+@font-face {
+    font-family: "OpenSans";
+     src: url("fonts/OpenSans-Regular.ttf");
+   }
+* {
+    box-sizing: border-box;
+ }
+
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+ 
+  /*Fonts for text*/ 
+   h1 {
+    font: bold 50px OpenSans, sans-serif;   
+    color: black; 
+    text-align: right;
+    line-height: 0.8;
+    }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #05747b;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #05747b;
+  color: white;
+  height: auto;
+  width: 100%;         
+  }
+ .footer img {
+  height: 50px;
+  padding: 5%;
+ } 
+ .footer time {
+  display: flex;
+  align-items: center;
+ }
+
+.block {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: OpenSans;
+    color: white;
+  }
+
+ .main-block {
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+/* block position*/
+  .left-position {
+      float: left ;
+      width: 35%;
+      
+      background-color: #292829;
+      height: 100%;
+      }
+  .right-position {
+      float: right;
+      width: 65%;
+      
+      
+      
+  }
+
+  /*photo border*/
+  .radius {
+      border-radius: 50%;
+      border: 3px solid #05747b;
+
+  }
+.section-left {
+    
+/*background-color: #05747b;*/
+
+
+
+}
+
+
+.section-right h2 { 
+    font-family: Roboto;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.section-right p { 
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    
+    
+}
+.section-left h2 { 
+    font-family: OpenSans;
+    font-size: 30px;
+    color: white;
+    background-color: #05747b;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+
+}
+
+
+.section-list {
+    list-style: none;
+}
+.section-link {
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 2;
+    font-family: Roboto;
+    color: white; 
+}
+
+.section-link img {
+  max-width: 15px;
+  margin-right: 10px;
+  fill: aliceblue;
+  stroke: aliceblue;
+  
+}
