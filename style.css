@@ -34,7 +34,6 @@
 .footer {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
   background-color: #05747b;
   color: white;
   height: auto;
@@ -153,3 +152,4 @@
   stroke: aliceblue;
   
 }
+
