@@ -54,7 +54,7 @@
                             <br>WScript.Quit
                             <br>Function Ping_WMI(strAddr)
                             <br>Dim objWMI, objItem
-                            <br> Set objWMI = GetObject("winmgmts:").ExecQuery("SELECT StatusCode FROM Win32_PingStatus WHERE Address='" & strAddr & "'")
+                            <br> Set objWMI = GetObject("winmgmts:").ExecQuery("SELECT StatusCode FROM Win32_PingStatus WHERE Address='" &amp strAddr &amp "'")
                             <br>For Each objItem In objWMI
                             <br> If IsNull(objItem.StatusCode) Then
                             <br>    Ping_WMI = False
