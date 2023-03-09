@@ -94,11 +94,12 @@
   }
 
   /*photo border*/
+  
   .radius {
-      border-radius: 50%;
+      border-radius: 10%;
       border: 3px solid #05747b;
 
-  }
+  } 
 .section-left {
     
 /*background-color: #05747b;*/
